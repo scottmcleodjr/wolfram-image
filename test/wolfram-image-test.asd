@@ -3,7 +3,7 @@
 (asdf:defsystem #:wolfram-image-test
   :description "Test cases for wolfram-images"
   :author "S M McLeod <s.mcleodjr@gmail.com>"
-  :license  "TBD"
+  :license  "MIT"
   :version "0.0.1"
   :depends-on ("imago" "lisp-unit" "wolfram-image")
   :serial t
