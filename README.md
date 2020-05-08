@@ -54,7 +54,3 @@ Rule 106
 Rule 110
 
 ![Example 4](example-images/image-4.png)
-
-## License
-
-TBD
