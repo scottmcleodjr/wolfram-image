@@ -15,11 +15,11 @@
   ; Set left and right values to match center on edges
   (let ((left  (if (> index 0) 
                    (svref gen (1- index))
-                   (svref gen index)))
+                   (svref gen (1- (length gen)))))
         (cell  (svref gen index))
         (right (if (< index (1- (length gen))) 
                    (svref gen (1+ index))
-                   (svref gen index))))
+                   (svref gen 0))))
     (< 0 (cond 
            ((and left cell right) (logand rule 128))
            ((and left cell)       (logand rule  64))

@@ -42,10 +42,10 @@
     (assert-equal (image-pixel test-image 1 0) +white+)
     (assert-equal (image-pixel test-image 2 0) +blue+)
     (assert-equal (image-pixel test-image 3 0) +blue+)
-    (assert-equal (image-pixel test-image 0 1) +blue+)
-    (assert-equal (image-pixel test-image 1 1) +blue+)
-    (assert-equal (image-pixel test-image 2 1) +white+)
-    (assert-equal (image-pixel test-image 3 1) +white+)))
+    (assert-equal (image-pixel test-image 0 1) +white+)
+    (assert-equal (image-pixel test-image 1 1) +white+)
+    (assert-equal (image-pixel test-image 2 1) +blue+)
+    (assert-equal (image-pixel test-image 3 1) +blue+)))
 
 
 (define-test test-make-image-with-custom-cell-height
@@ -56,10 +56,10 @@
     (assert-equal (image-pixel test-image 1 0) +blue+)
     (assert-equal (image-pixel test-image 0 1) +white+)
     (assert-equal (image-pixel test-image 1 1) +blue+)
-    (assert-equal (image-pixel test-image 0 2) +blue+)
-    (assert-equal (image-pixel test-image 1 2) +white+)
-    (assert-equal (image-pixel test-image 0 3) +blue+)
-    (assert-equal (image-pixel test-image 1 3) +white+)))
+    (assert-equal (image-pixel test-image 0 2) +white+)
+    (assert-equal (image-pixel test-image 1 2) +blue+)
+    (assert-equal (image-pixel test-image 0 3) +white+)
+    (assert-equal (image-pixel test-image 1 3) +blue+)))
 
 
 (define-test test-make-image-background-color-set-correctly
