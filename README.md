@@ -38,16 +38,24 @@ NIL
 
 Rule 99
 
-![Example 1](example-images/image-1.png)
+![Example Rule 99](example-images/image-rule-99.png)
 
-Rule 30
+Rule 150
 
-![Example 2](example-images/image-2.png)
+![Example Rule 150](example-images/image-rule-150.png)
+
+Rule 73
+
+![Example Rule 73](example-images/image-rule-73.png)
 
 Rule 106
 
-![Example 3](example-images/image-3.png)
+![Example Rule 106](example-images/image-rule-106.png)
 
-Rule 110
+Rule 30
 
-![Example 4](example-images/image-4.png)
+![Example Rule 30](example-images/image-rule-30.png)
+
+Rule 195
+
+![Example Rule 195](example-images/image-rule-195.png)
