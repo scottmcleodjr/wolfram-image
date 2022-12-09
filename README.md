@@ -16,7 +16,7 @@ The project includes a number of tests for `make-image` in the `wolfram-image-te
 
 The below examples were made in a REPL session like this example:
 
-```
+```lisp
 * (defvar three-points (make-array 400 :initial-element nil))
 THREE-POINTS
 
